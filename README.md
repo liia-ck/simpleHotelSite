@@ -1,2 +1,2 @@
 # simpleHotelSite
-created with floats
+Three working pages created with floats
