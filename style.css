@@ -87,8 +87,6 @@
   line-height: 1.2;
 }
 
-
-
  #navbar {
    background-color: #333;
    color: #fff;
@@ -109,11 +107,6 @@
    float: right;
  }
 
-
- /* Тут не поняла? 
- То есть после float:left, все элементы внутри списка
- превратились из block в inline и стали линией в левый угол?, учитывая, 
- что потом ниже мы ссылки внутри списка превращаем обратно в блоковые элементы */
  #navbar ul li {
    float: left;
  }
@@ -131,7 +124,7 @@
  }
 
 #showcase {
-  background: url(/img/showcase.jpg) no-repeat center center/cover;
+  background: url('showcase.jpg') no-repeat center center/cover;
   height: 600px;
 }
 
@@ -164,7 +157,7 @@
 #home-info .info-img {
   float: left;
   width: 50%;
-  background: url('/img/photo-1.jpg') no-repeat;
+  background: url('photo-1.jpg') no-repeat;
   min-height: 100%;
 }
 
@@ -182,7 +175,6 @@
 }
 
 .box {
-  /* float: left сделает элементы ГОРИЗОНТАЛЬНЫМИ, он сказал в видео это!!! */
   float: left;
   width: 33.3%;
   padding: 50px;
@@ -201,8 +193,6 @@
 
 #about-info .info-right img {
   width: 70%;
-  /* display: block для того, чтобы потом поместить изображение по центру
-  в рамке 50% своего контейнера посредством margin: auto*/
   display: block;
   margin: auto;
   border-radius: 50%;
@@ -216,7 +206,7 @@
 
 #testimonials {
   height: 100%;
-  background: url(/img/test-bg.jpg) no-repeat center center/cover;
+  background: url(test-bg.jpg) no-repeat center center/cover;
   padding-top: 100px;
 }
 
@@ -259,7 +249,6 @@
   height: 200px;
 }
 
-
 #contact-form .form-group input:focus, textarea:focus {
   outline: none;
   border:#f7c08a solid 2px;
@@ -271,4 +260,3 @@
   color: #fff;
   padding: 20px;
 }
-
