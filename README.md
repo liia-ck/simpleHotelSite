@@ -1,0 +1,2 @@
+# simpleHotelSite
+created with floats
