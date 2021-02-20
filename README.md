@@ -1,3 +1,2 @@
 # simpleHotelSite
-Three working pages created with floats
-Part of my learning experience
+Three working pages created with floats for the purpose of learning
